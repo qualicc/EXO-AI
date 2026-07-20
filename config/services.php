@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'exoplanet_ai' => [
+        'url' => env('EXOPLANET_AI_URL', 'http://127.0.0.1:8000'),
+        'key' => env('EXOPLANET_AI_KEY', 'change-this-secret'),
+    ],
+
 ];
